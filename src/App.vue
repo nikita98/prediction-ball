@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <MagickBall/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MagickBall from './components/MagickBall.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MagickBall
   }
 }
 </script>
@@ -22,5 +21,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>
